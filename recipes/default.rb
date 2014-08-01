@@ -5,6 +5,7 @@
 
 include_recipe 'build-essential'
 include_recipe 'apache2'
+include_recipe 'git'
 
 git "mod_qos" do
   action :sync
